@@ -1,0 +1,25 @@
+CREATE TABLE students(
+
+    RollNo int(5),
+    students_Name char(20) NOT NULL,
+    students_Surname char(20) NOT NULL,
+    students_EnrollmentNo char(15) NOT NULL,
+    students_MobileNo int(15) NOT NULL,
+    students_Email char(20) NOT NULL,
+
+    CONSTRAINT PK_students PRIMARY KEY(RollNo)
+);
+
+INSERT INTO students VALUES ("1","Jay","Vekariya","2102030400379","9429955337","jayvekariya@gmail.com")
+
+INSERT INTO students VALUES ("2","Jenil","Vekariya","2102030400380","9429974337","jenilvekariya@gmail.com")
+
+INSERT INTO students VALUES ("3","Akhil","Viradiya","2102030400381","8729955337","akhilviradiya@gmail.com")
+
+INSERT INTO students VALUES ("4","Hasti","Viradiya","2102030400382","9426355337","hastiviradiya@gmail.com")
+
+INSERT INTO students VALUES ("5","Arpit","Vasoya","2102030400383","9491955337","arpitvasoya@gmail.com")
+
+INSERT INTO students VALUES ("6","Yash","Ukani","2102030400384","9429955349","yashukani@gmail.com")
+
+SELECT * FROM students;
